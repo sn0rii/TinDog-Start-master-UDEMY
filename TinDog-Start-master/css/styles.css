@@ -132,6 +132,18 @@ p {
   padding: 3% 2%;
 }
 
+/* cta */
+
+#cta {
+  padding: 100px;
+  background-color: #ff4c68;
+  text-align: center;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 900; /* black */
+  font-size: 3.5rem;
+  line-height: 1.5;
+}
+
 @media (max-width: 1028px) {
   #title {
     text-align: center;
