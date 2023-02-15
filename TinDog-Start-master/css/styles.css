@@ -1,37 +1,36 @@
 body {
   font-family: "Montserrat", sans-serif;
+  text-align: center;
 }
 
-h1 {
+h1, h2, h3, h4, h5, h6 {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 700; /* bold */
+}
+
+
+
+p {
+  color: #8f8f8f;
+}
+
+/* Headings */
+
+.big-heading {
   font-family: "Montserrat", sans-serif;
   font-weight: 900; /* black */
   font-size: 3.5rem;
   line-height: 1.5;
 }
 
-h2 {
-  font-family: "Montserrat", sans-serif;
-  font-weight: 700; /* bold */
+.section-heading{
   font-size: 3rem;
   line-height: 1.5;
 }
 
-h3 {
-  font-family: "Montserrat", sans-serif;
-  font-weight: 700; /* bold */
-}
-
-p {
-  color: #8f8f8f;
-}
-
-#title {
-  background-color: #ff4c68;
-  color: #fff;
-}
 
 .container-fluid {
-  padding: 3% 15% 7%;
+  padding: 7% 15%;
 }
 
 /* Navigation Bar */
@@ -62,6 +61,18 @@ p {
   margin: 5% 3% 5% 0;
 }
 
+/* Title Section */
+
+#title {
+  background-color: #ff4c68;
+  color: #fff;
+  text-align: left;
+}
+
+#title .container-fluid {
+  padding: 3% 15% 7%;
+}
+
 /* Title Image */
 
 .title-image {
@@ -75,12 +86,15 @@ p {
 
 #features {
   background-color: #fff;
-  padding: 7% 15%;
   position: relative;
 }
 
+.feature-title{
+  font-size: 1.5rem;
+}
+
 .feature-box {
-  text-align: center;
+  
   padding: 5%;
 }
 
@@ -96,9 +110,15 @@ p {
 /* Testimonials Section */
 
 #testimonials {
-  text-align: center;
+  
   background-color: #ef8172;
   color: #fff;
+}
+
+.testimonial-text{
+  font-size: 3rem;
+  line-height: 1.5;
+
 }
 
 .testimonials-image {
@@ -106,13 +126,11 @@ p {
   border-radius: 100%;
   margin: 20px;
 }
-.carousel-item {
-  padding: 7% 15%;
-}
+
 
 #press {
   background-color: #ef8172;
-  text-align: center;
+  
   padding-bottom: 3%;
 }
 
@@ -123,9 +141,16 @@ p {
 
 /* Pricing Section */
 
+
+
 #pricing {
   padding: 100px;
-  text-align: center;
+  
+}
+
+.price-text{
+  font-size: 3rem;
+  line-height: 1.5;
 }
 
 .pricing-column {
@@ -135,13 +160,25 @@ p {
 /* cta */
 
 #cta {
-  padding: 100px;
   background-color: #ff4c68;
-  text-align: center;
-  font-family: "Montserrat", sans-serif;
-  font-weight: 900; /* black */
-  font-size: 3.5rem;
-  line-height: 1.5;
+  color: #fff;
+  
+ 
+}
+
+
+
+
+/* Footer Section */
+
+#footer {
+  background-color: #fff;
+  
+
+}
+
+.social-icon{
+  margin: 20px 10px;
 }
 
 @media (max-width: 1028px) {
